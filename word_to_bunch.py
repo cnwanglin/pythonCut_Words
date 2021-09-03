@@ -20,7 +20,7 @@ def word_to_bunch(train_save_path, train_bunch_path):
         detail_path = train_save_path + label + '/'
         all_details = os.listdir(detail_path)
         for all_detail in all_details:
-             file_detail_path = detail_path + all_detail # 文件具փ䐟径
+             file_detail_path = detail_path + all_detail # 文件具体路径
              bunch.label.append(label)
              bunch.filepath.append(file_detail_path)
              contents = read_file(file_detail_path)

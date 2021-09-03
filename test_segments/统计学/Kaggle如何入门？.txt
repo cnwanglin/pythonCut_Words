@@ -1,0 +1,101 @@
+从下面5个方面系统聊聊：
+1）Kaggle是个什么东东？
+2）什么人会使用Kaggle?
+3）在Kaggle上做项目对你找工作有什么用？
+4）如何在Kaggle中高效搜索数据集？
+5）零基础如何入门Kaggle？
+（具体聊聊在做kaggle项目的时候遇到哪些问题，问题出现的时候我是如何思考的？最后又是如何解决的？）
+6）一个入门的例子：手把手教会你入门Kaggle
+<img src="https://pic1.zhimg.com/50/v2-a3685a05ccd1517dc402c911b5395cdd_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="85" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic1.zhimg.com/v2-a3685a05ccd1517dc402c911b5395cdd_r.jpg?source=1940ef5c"/>
+1.Kaggle是什么？
+Kaggle 是一个流行的数据科学竞赛平台。由 Goldbloom 和 Ben Hamner 创建于 2010 年（官网地址：Your Home for Data Science）。为什么这两个家伙要创立这样一个平台呢？
+<img src="https://pic2.zhimg.com/50/v2-fb138ba42db4f01fbd90ef9a12387b78_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="767" data-rawheight="282" class="origin_image zh-lightbox-thumb" width="767" data-original="https://pic2.zhimg.com/v2-fb138ba42db4f01fbd90ef9a12387b78_r.jpg?source=1940ef5c"/>
+数据科学社区一直有这样一个难题：对于同一个问题，可以有多个模型来解决，但是研究者不可能在一开始就了解哪些模型是最好的。
+Kaggle就是为了解决这样的问题诞生的，它试图通过众包的形式来解决这一难题。
+纳尼，数据科学还能众包，那啥是众包呢？
+<img src="https://pica.zhimg.com/50/v2-006650cd0df7d2336dfad39a5cd1d8ad_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="585" data-rawheight="285" class="origin_image zh-lightbox-thumb" width="585" data-original="https://pic3.zhimg.com/v2-006650cd0df7d2336dfad39a5cd1d8ad_r.jpg?source=1940ef5c"/>
+众包是一对多的关系，假如猴子我有一个问题，我可以把这个问题发布到网站上，然后很多人看到了这个问题，其中有10个人给出了这个问题的答案，这样我就有10个答案了 （对应机器学习中的模型）。我选出排名前3的答案，拿出100万奖励这3个人。现在的猪八戒网站，滴滴打车，知乎本质上都是众包模式。（知乎的点赞模式其实就是一种奖励：社交认同感）
+
+扯远了，回到Kaggle上来。在这个平台上，企业和研究者可在其上发布数据和问题，并提供奖金给能解决问题的人。多个数据分析相关的能人志士在其上进行竞赛以产生最好的模型来解决问题。进而使数据科学成为一场运动。
+
+这就好比，金庸小说里的华山论剑，吸引了江湖各大有武功的人前来。同样的，Kaggle就是数据科学领域的“华山论剑”，吸引了来自数据分析，机器学习，深度学习等领域的人。
+
+Kaggle 官方表示，该社区目前在全世界范围内有超过 85 万的数据科学家用户。2017年3月谷歌收购了Kaggle。谷歌云机器学习与人工智能首席科学家李飞飞说：人工智能的发展需要数据民主化以及越来越多的数据和模型，这是我们对 Kaggle 高度重视及收购的原因。
+<img src="https://pic2.zhimg.com/50/v2-03f2615578a6a3a3605487b242c99bea_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="519" data-rawheight="296" class="origin_image zh-lightbox-thumb" width="519" data-original="https://pic2.zhimg.com/v2-03f2615578a6a3a3605487b242c99bea_r.jpg?source=1940ef5c"/>
+<img src="https://pic2.zhimg.com/50/v2-a3685a05ccd1517dc402c911b5395cdd_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="85" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pica.zhimg.com/v2-a3685a05ccd1517dc402c911b5395cdd_r.jpg?source=1940ef5c"/>
+2.什么人会使用Kaggle?
+参赛者主要分为下面两种：
+1）一种是以奖金和排名为目的，包括靠奖金为生的职业Kaggler。这些人有丰富的数据分析，机器学习工作经验的业内人士。
+2）一种就是以提升相关技能和背景为目的业余爱好者甚至在校学生了。这类型人有一定技术能力，但经验欠缺，是想从中进行学习和锻炼的“长江后浪”。
+<img src="https://pic1.zhimg.com/50/v2-a3685a05ccd1517dc402c911b5395cdd_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="85" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic2.zhimg.com/v2-a3685a05ccd1517dc402c911b5395cdd_r.jpg?source=1940ef5c"/>
+3.在Kaggle上做项目对你找工作有什么用？
+1）用Kaggle项目经验弥补你没有工作经验的不足
+之前有很多转行数据分析的朋友经常问的一个问题是：猴哥，我是转行，没做过相关的项目啊，根本没有经验，怎么整？
+其实公司看你的项目经验，并不是说你要工作过，而是想通过你做的具体事情来了解，你是否有某方面的能力。
+让别人知道你能力的最好办法不是你说了什么，而是你做了什么。各位老铁，感谢互联网时代吧，你做了什么是可以借助互联网留下痕迹。
+所以解决办法很简单，把Kaggle上的项目经验写在你的简历上可以很直观的展现自己的能力，同时作为你的项目经验。
+
+2）Kaggle的Profile是你能力的证明
+Kaggle竞赛另一个有趣的地方在于每个人都有自己的Profile（个人资料），上面会显示所有你自己参与过的项目、活跃度、实时排位、历史最佳排位等，看上去非常有成就感。
+<img src="https://pic1.zhimg.com/50/v2-72f6ff7dd94abd186f79047397204c93_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="1033" data-rawheight="536" class="origin_image zh-lightbox-thumb" width="1033" data-original="https://pic2.zhimg.com/v2-72f6ff7dd94abd186f79047397204c93_r.jpg?source=1940ef5c"/>
+同时，Kaggle作为数据科学业内享有盛名的平台，在业界拥有极高的认可度。所以如果你是想寻找相关行业的工作，当你把这个Kaggle Profile的地址放到你的求职简历里，会被优先录取。
+
+正如在回答“kaggle的比赛在机器学习领域中属于什么地位”里说的：
+写上参加过Kaggle比赛，我会看简历。得过一次10%，我会给电话面试。得过2次或者以上10%，我会给on site面试。得过一次前10，我们会谈笑风生。（在 Kaggle 上一次比赛的结果除了排名以外，还会显示三挡： Prize Winner，10% ， 25% 。所以刚刚接触 Kaggle 的人很多都会以 25% 或是 10% 为目标。）
+
+现在你已经知道在Kaggle上做项目对你人生的重要意义了。那么接下来的问题就来了。
+<img src="https://pic2.zhimg.com/50/v2-ae736f8e793b1e0149d3a2ef7d325e74_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="85" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic3.zhimg.com/v2-ae736f8e793b1e0149d3a2ef7d325e74_r.jpg?source=1940ef5c"/>
+4.如何在Kaggle中高效搜索数据集？
+点击Kaggle主页顶部的Datasets标签，可以打开打开“Datasets”页面来搜索数据集。
+（因为是英文网站，你可以使用翻译工具，把中文翻译成英文）
+<img src="https://pic1.zhimg.com/50/v2-358f1572b17ee6322d2c4c5ca767bd29_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="808" data-rawheight="487" data-default-watermark-src="https://pic3.zhimg.com/50/v2-485a1e259b507bd77523b231ed2c23b6_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="808" data-original="https://pic3.zhimg.com/v2-358f1572b17ee6322d2c4c5ca767bd29_r.jpg?source=1940ef5c"/>
+<img src="https://pic1.zhimg.com/50/v2-6ce89d44fcdc69af3b9ed2c2fda9129d_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="807" data-rawheight="481" data-default-watermark-src="https://pic1.zhimg.com/50/v2-80fe6a0655b881efa8c5bf7690245eb8_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="807" data-original="https://pic2.zhimg.com/v2-6ce89d44fcdc69af3b9ed2c2fda9129d_r.jpg?source=1940ef5c"/>
+
+如果搜索出来的结果很多，这时浏览器中的页面搜索功能将起到很大作用。在浏览器页面中，你可以同时按住键盘上的ctrl+f(在Mac上是cmd+f)，然后在出现的方框中输入你想要更进一步搜索的关键字。
+<img src="https://pic1.zhimg.com/50/v2-4279739c33f92a9d96443c02ae15b322_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="740" data-rawheight="332" data-default-watermark-src="https://pic3.zhimg.com/50/v2-efbb13704181eb8911c2751e0d57d55f_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="740" data-original="https://pic1.zhimg.com/v2-4279739c33f92a9d96443c02ae15b322_r.jpg?source=1940ef5c"/>
+
+<img src="https://pic1.zhimg.com/50/v2-a3685a05ccd1517dc402c911b5395cdd_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="85" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic3.zhimg.com/v2-a3685a05ccd1517dc402c911b5395cdd_r.jpg?source=1940ef5c"/>
+5.零基础如何入门Kaggle？
+5.1掌握一门数据分析工具
+非编程工具；Excel，SQL
+
+编程工具：Python和R都可以，如果是新手，建议从Python开始，不知道如何开始的，可以看这个教程：
+
+
+5.2 从练习项目开始
+Kaggle上的项目竞赛分成下面4个最常见的类别
+1）Featured：这些通常是由公司、组织甚至政府赞助的，奖金池最大。
+2）Research：这些是研究方向的竞赛，只有很少或没有奖金。它们也有非传统的提交流程。
+3）Recruitment：这些是由想要招聘数据科学家的公司赞助的。目前仍然相对少见。
+4）Getting Started（练习项目）：这些竞赛的结构和 Featured 竞赛类似，但没有奖金。它们有更简单的数据集、大量教程。
+
+如果你从未独立做过一个数据分析相关的项目，就从Getting Started（练习项目）开始入门。练习项目不仅难度低，并且还有很多社区创造的教程，你可以用来对比改善自己的测试结果，从中进行提高。比如经典的泰坦尼克号项目：https://www.kaggle.com/c/titanic#tutorials
+<img src="https://pic1.zhimg.com/50/v2-0fdaec02b53268460b6f2ec43f98e53b_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="671" data-rawheight="282" class="origin_image zh-lightbox-thumb" width="671" data-original="https://pic3.zhimg.com/v2-0fdaec02b53268460b6f2ec43f98e53b_r.jpg?source=1940ef5c"/>
+5.3 我的排名低，怎么办？
+有些初学者担心低排名出现在他们的个人资料（Profile）中，结果一直没有开始。但是，排名低真的没什么关系，重要是的你已经开始有做数据分析、机器学习相关的能力。没人会因此贬低你，因为每个人在一开始都是初学者。
+
+罗马不是一天建成的，你可以按下面这个过程不断学习新的知识，循序渐进的提高排名：
+第1步：先提交一个最基本的解决方案，熟悉基本的流程
+第2步：学习新知识，优化方案进入排名前 50%
+第3步：继续学习新知识，优化方案进入排名前 25%
+第4步：继续学习新知识，优化方案进入排名前 10%
+<img src="https://pic3.zhimg.com/50/v2-a3685a05ccd1517dc402c911b5395cdd_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="85" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic3.zhimg.com/v2-a3685a05ccd1517dc402c911b5395cdd_r.jpg?source=1940ef5c"/>
+6.一个入门的例子：手把手教会你入门Kaggle
+6.1第一步当然是注册一个Kaggle账号
+1）如果刚开始练习懒得注册或者无法注册成功，可以直接使用这个社群账户登录kaggle下载数据就可以了（账户：houzitest，密码：Learndata）。
+2）如果是自己注册，可以按下图步骤操作即可（需要注意的是：国内用户无法注册成功）
+<img src="https://pic3.zhimg.com/50/v2-597515667cd27972321f6220a4ecd98d_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="623" data-rawheight="352" class="origin_image zh-lightbox-thumb" width="623" data-original="https://pic3.zhimg.com/v2-597515667cd27972321f6220a4ecd98d_r.jpg?source=1940ef5c"/>
+<img src="https://pic1.zhimg.com/50/v2-ac5b0b52ffd363bab7524dc1e5088db3_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="437" data-rawheight="443" class="origin_image zh-lightbox-thumb" width="437" data-original="https://pic3.zhimg.com/v2-ac5b0b52ffd363bab7524dc1e5088db3_r.jpg?source=1940ef5c"/>
+注册后会收到一封确认邮件，如果没有收到看看垃圾邮箱中有没有，我的就被放到垃圾邮箱中了。
+注意：注册过程中无法收到验证码解决办法：
+
+6.2 泰坦尼克号案例手把手入门
+为了给大家说明如何入门一个kaggle项目，我制作了入门的三部曲，手把手教会你。
+1）如何用通俗易懂的话明白什么是机器学习？
+机器学习入门：简单线性回归
+
+2）机器学习入门：逻辑回归
+
+3）机器学习入门：Kaggle与泰坦尼克号项目
+
+<img src="https://pica.zhimg.com/50/v2-521c58835d19ed713d8a4164cac7de25_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="600" data-rawheight="285" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic1.zhimg.com/v2-521c58835d19ed713d8a4164cac7de25_r.jpg?source=1940ef5c"/>

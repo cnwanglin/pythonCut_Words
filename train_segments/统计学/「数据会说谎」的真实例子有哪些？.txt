@@ -1,0 +1,38 @@
+截图说话——哗众取宠的美国Fox news经常用的一些招数。
+这些招数更多的是从视觉上给人一种“错觉”。比如说，本来不大的差异，截掉Y轴的一部分，瞬间差异就会让看的人觉得——差得这么多！！！
+想象你明天要跟你的经理作报告，手里有一堆结果，但是显然这些结果对于之前的方法只有边际的增长——好消息是，你几乎一定可以找到一个方法，在数据变化不大的时候却给人造成视觉的冲击。
+例子：1）在趋势图中，为了说明增长趋势多明显，把Y调成不从0开始。这样差距会看起来很大，增长很大，但是如果把Y轴从0开始看的话，会显得基本没有差距。
+<img src="https://pic3.zhimg.com/50/804a3f61cd10160443636cf5b1033961_720w.jpg?source=1940ef5c" data-rawwidth="590" data-rawheight="443" class="origin_image zh-lightbox-thumb" width="590" data-original="https://pic3.zhimg.com/804a3f61cd10160443636cf5b1033961_r.jpg?source=1940ef5c"/>
+
+
+可惜Y从0开始的话，这图应该看起来的样子是：
+<img src="https://pic1.zhimg.com/50/69fdd79bca903ec0cc63db2431672a62_720w.jpg?source=1940ef5c" data-rawwidth="700" data-rawheight="420" class="origin_image zh-lightbox-thumb" width="700" data-original="https://pic1.zhimg.com/69fdd79bca903ec0cc63db2431672a62_r.jpg?source=1940ef5c"/>
+
+
+2) 另外一个例子，作两两比较的时候把Y的值从高位开始，造成俩差距巨大的错觉
+<img src="https://pic2.zhimg.com/50/abce2a42e8fbcd551b0f90b00692c261_720w.jpg?source=1940ef5c" data-rawwidth="644" data-rawheight="476" class="origin_image zh-lightbox-thumb" width="644" data-original="https://pic1.zhimg.com/abce2a42e8fbcd551b0f90b00692c261_r.jpg?source=1940ef5c"/>
+
+
+3) 分数加起来不等于一，放大差距。
+<img src="https://pic2.zhimg.com/50/a300f5f64e7f9b2a7e8616e213d91ab2_720w.jpg?source=1940ef5c" data-rawwidth="548" data-rawheight="411" class="origin_image zh-lightbox-thumb" width="548" data-original="https://pic3.zhimg.com/a300f5f64e7f9b2a7e8616e213d91ab2_r.jpg?source=1940ef5c"/>
+
+这里
+<img src="https://pic2.zhimg.com/50/e8ca19409759b0f6d5cd76db1b020f58_720w.jpg?source=1940ef5c" data-rawwidth="500" data-rawheight="250" class="origin_image zh-lightbox-thumb" width="500" data-original="https://pica.zhimg.com/e8ca19409759b0f6d5cd76db1b020f58_r.jpg?source=1940ef5c"/>
+
+
+
+4) 挑取x轴的数据以捏造趋势
+<img src="https://pic1.zhimg.com/50/02839064fc6b4197a6fcffa3c15c6b0d_720w.jpg?source=1940ef5c" data-rawwidth="470" data-rawheight="272" class="origin_image zh-lightbox-thumb" width="470" data-original="https://pic2.zhimg.com/02839064fc6b4197a6fcffa3c15c6b0d_r.jpg?source=1940ef5c"/>
+
+
+10, 1, 20, 3, 30, 4, 50看起来应该是
+<img src="https://pic3.zhimg.com/50/261400d3ccf4f5b262bec500681179d4_720w.jpg?source=1940ef5c" data-rawwidth="1210" data-rawheight="728" class="origin_image zh-lightbox-thumb" width="1210" data-original="https://pic2.zhimg.com/261400d3ccf4f5b262bec500681179d4_r.jpg?source=1940ef5c"/>
+
+
+
+没关系——如果我只抽取奇数项的话（挑取x轴，虽然挑得好像是很有系统地——奇数，但是你总能想到一个看着挑得系统的方法）就会看着像
+<img src="https://pica.zhimg.com/50/632537beed54170fb849db4b85f8f2a4_720w.jpg?source=1940ef5c" data-rawwidth="1218" data-rawheight="732" class="origin_image zh-lightbox-thumb" width="1218" data-original="https://pic3.zhimg.com/632537beed54170fb849db4b85f8f2a4_r.jpg?source=1940ef5c"/>
+
+
+等等等等...
+http://simplystatistics.org/2012/11/26/the-statisticians-at-fox-news-use-classic-and-novel-graphical-techniques-to-lead-with-data/

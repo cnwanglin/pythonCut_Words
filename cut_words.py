@@ -47,63 +47,63 @@ def cast_words(origin_path, save_path, theme_tag):
     '''
     file_lists = os.listdir(origin_path) #原文档所在路径
 
-    print('\n'+'file_lists:')
-    print(file_lists)
-    print('\n'+'origin_path:')
-    print(origin_path)
+    # print('\n'+'file_lists:')
+    # print(file_lists)
+    # print('\n'+'origin_path:')
+    # print(origin_path)
 
     for dir_1 in file_lists: #找到文件夹
         file_path = origin_path + dir_1 + "/" #原始文件路径
 
-        print('\n' + 'dir_1:')
-        print(dir_1)
-
-        print('\n' + 'file_path:')
-        print(file_path)
+        # print('\n' + 'dir_1:')
+        # print(dir_1)
+        #
+        # print('\n' + 'file_path:')
+        # print(file_path)
 
         seg_path = save_path + dir_1 + "/" #切词后文件路径
 
-        print('\n' + 'save_path:')
-        print(save_path)
-
-        print('\n' + 'seg_path:')
-        print(seg_path)
+        # print('\n' + 'save_path:')
+        # print(save_path)
+        #
+        # print('\n' + 'seg_path:')
+        # print(seg_path)
 
         if not os.path.exists(seg_path):
             os.makedirs(seg_path)
         detail_paths = os.listdir(file_path)
 
-        print('\n' + 'detail_paths:')
-        print(detail_paths)
+        # print('\n' + 'detail_paths:')
+        # print(detail_paths)
 
         for detail_path in detail_paths: #找到文件夹下具体文件路径
             full_path = file_path + detail_path #原始文件下每个文档路径
 
-            print('\n' + 'detail_path:')
-            print(detail_path)
-
-            print('\n' + 'full_path:')
-            print(full_path)
+            # print('\n' + 'detail_path:')
+            # print(detail_path)
+            #
+            # print('\n' + 'full_path:')
+            # print(full_path)
 
             file_content = read_file(full_path)
 
-            print('\n' + 'file_content:')
-            print(file_content)
+            # print('\n' + 'file_content:')
+            # print(file_content)
 
             file_content = file_content.strip() # replace("\r\n", " ")
                                                 # 删除换行
-            print('\n' + 'file_content.strip():')
-            print(file_content)
+            # print('\n' + 'file_content.strip():')
+            # print(file_content)
 
             file_content = file_content.replace("\'", "")
 
-            print('\n' + 'file_content.replace("\'", ""):')
-            print(file_content)
+            # print('\n' + 'file_content.replace("\'", ""):')
+            # print(file_content)
 
             file_content = file_content.replace("\\n", "")
 
-            print('\n' + 'file_content.replace("\\n", ""):')
-            print(file_content)
+            # print('\n' + 'file_content.replace("\\n", ""):')
+            # print(file_content)
 
             content_seg1 = jieba.cut(file_content) # 为文件内容分词
             content_seg2 = jieba.cut(file_content)  # 为文件内容分词

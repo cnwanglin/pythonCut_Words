@@ -1,0 +1,29 @@
+本文转自简道云的知乎回答：有哪些「神奇」的数据获取方式？
+已经将网站汇总成表格，大家可以下载查看：【简道云汇总】110+数据网站
+
+如果你不是会爬虫的技术流，那下面这110+网站可以解决你90%的数据需求。
+首先，常见的公开数据网站在https://hao.199it.com/都可以搜索到。
+<img src="https://pic3.zhimg.com/50/v2-0e8f3cad39d358b40e346af740eecdfb_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="1423" data-rawheight="821" data-default-watermark-src="https://pic1.zhimg.com/50/v2-768013b460dfc3176036a287c5eab808_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="1423" data-original="https://pic2.zhimg.com/v2-0e8f3cad39d358b40e346af740eecdfb_r.jpg?source=1940ef5c"/>
+除此之外，补充上面没有的一些网站，一共110+，按需选择：
+金融财经数据
+同花顺数据中心：提供股票债券等金融数据和讯数据：提供各种股票、基金、外汇、债券等实时数据，有付费，有免费零壹财经：大大小小的网贷数据、排行榜等金融数据网：提供每日的黄金、汇率、农产品、汽油价格的相关数据萝卜投研：提供股市、证券等数据，多以数据研究报告形式展示金融界：提供股市、融资等各种资金流向数据，以及丰富的财报和研报东方财富网：提供多国的股票、财税、行业、消费等大量丰富的经济数据吉林金融网：提供吉林的融资、市场数据搜狐证券：提供货币、外汇、行业、市场等宏观数据CCER经济金融数据库：提供企业财务年度数据、股票收益数据等数据库下载香港金融管理局：提供香港的各种经济及金融数据，以宏观数据为主世纪未来：数据服务平台，提供银行业务研究、金融大数据等各种付费数据新浪财经：提供国内国民经济、行业信息、对外经贸、居民收入等各种宏观的经济数据司尔亚司数据信息有限公司：覆盖超过195+个国家的经济数据库，数据全面但收费INSEE数据：法国统计与经济研究院公开数据投中研究院：提供投资领域的分析报告，网站更新频率较高
+互联网数据
+营销查询：
+5118 / chinaz：支持查询网站排名及发展趋势、百度收录情况等信息百度指数：百度旗下/以百度网民行为数据为基础的数据分享平台，支持查询需求图谱微信指数：微信旗下/基于微信大数据分析的移动端指数，打开微信→搜索“微信指数”可用移动观象台：基于移动设备用户的操作行为，提供应用、公众号排行等，以及大量数据报告新榜/微小宝/易赞：几款工具比较类似，支持查看公众号排行、看公众号人群画像等功能阿里指数：阿里旗下/反映淘宝平台市场动向的数据分析平台
+报告分析：
+易观智库：199IT导航的母网站，权威的互联网数据平台，涵盖战略新兴产业、电商互联网、共享经济、社交营销、移动互联网以及其他互联网服务的数据及分析报告艾瑞网：高频率更新互联网前沿的新闻资讯、分析报告，旗下包括艾瑞指数、艾瑞咨询等艾媒网：艾媒与艾瑞无关，艾媒网发布的研究报告多偏向移动互联网方向CBNDdata：以阿里巴巴的商业数据库为基础，输出产业经济分析报告QuestMobile：周期性地发布一些关于APP的研究报告阿里研究院：阿里旗下/发布研究电商等方向趋势的数据报告，内容多与阿里相关360研究报告：360旗下/移动、PC、网站、企业、诈骗等安全领域的研究，以及大数据等非安全领域的研究中国互联网信息研究中心：经国家主管部门批准组建的管理和服务机构，经常发布一些有价值的互联网信息报告中国信通院：针对互联网多个行业的发展趋势，发布白皮书，角度较为宏观中国互联网数据平台：提供全国各地区互联网发展报告、基础数据及研究分析报告，数据及报告偏向学术性研究清博大数据：提供微信、微博、头条榜单数据，各种研究报告、数据报告、舆情报告及行业热点数据观：丰富的前沿行业资讯，及部分研究报告下载腾讯大数据：数据服务平台，提供调查研究、移动互联网及特色数据报告，质量较高大数据世界：提供大数据相关资讯、应用案例、技术方案及资料下载
+地理数据
+水土气候数据：
+水土保持生态建设网http://www.swcc.org.cn/黄河风情http://www.yellowriver.org/黄河流域数据中心http://henu.geodata.cn/index.jsp黄土高原水土保护数据库http://www.loess.csdb.cn/数字黑河http://heihe.westgis.ac.cn/Default.aspx?tabid=106大气科学数据库http://data.iap.ac.cn/中国气象科学数据http://cdc.cma.gov.cn/中国气象科学数据共享服务网http://cdc.cma.gov.cn/全球森林土地覆盖动态http://www.fao.org/gtos/gofc-gold/ FRA 2000http://edcsns17.cr.usgs.gov/glcc/fao/index.html全球森林资源NOAAhttp://www.noaa.gov/美国国家海洋和大气管理局NCDC http://lwf.ncdc.noaa.gov/oa/ncdc.html美国国家气候数据中心国际水管理研究所http://www.iwmidsp.org/iwmi/info/main.asp气候研究所http://www.cru.uea.ac.uk/植被覆盖数据http://www.vgt.vito.be/
+环境数据：
+黄土区农业与生态环境数据分中心http://loess.geodata.cn/东北黑土农业生态数据库http://www.blackland.csdb.cn/default.asp中国西部环境与生态科学数据中心http://westdc.westgis.ac.cn/西部数据中心http://westdc.westgis.ac.cn/data黄土高原区域数据共享运行服务中心http://loess.geodata.cn/Portal/?isCookieChecked=true
+遥感数据：
+地面站RS地图查询http://cs.rsgs.ac.cn/cs_cn/query/query_map.asp甘肃省基础地理信息中心http://www.cehuiju.gansu.gov.cn/5chcg/giscenter.asp遥感数据网络资源http://ecology.bnu.edu.cn/gejp/student/zhj/webresource.htm中国遥感数据网http://ids.ceode.ac.cn/GLCF http://glcf.geodata.cn/etm/Welcome.doGIS FORUM http://www.gisforum.net/全球最大的GIS中文门户网站遥感数据共享http://ids.ceode.ac.cn/
+其他自然人文数据：
+地理国情监测云平台 http://www.dsac.cn/中国资源卫星应用中心 http://www.cresda.com/cn/profile.htm中国自然资源数据库 http://www.data.ac.cn/index.asp中国科学院资源环境科学数据中心 http://www.resdc.cn/resdc/first.asp中国地球系统科学数据共享网 http://www.geodata.cn:8086/Metadata/index.jsp国家地球系统科学数据共享服务平台 http://www.geodata.cn/PM25.in | PM2.5(细颗粒物)及空气质量指数(AQI)实时查询！：中国空气质量监测实时数据http://pm25.in/国际科学数据服务平台 http://datamirror.csdb.cn/index.jsp原始数据搜索 https://wist.echo.nasa.gov/api中国科学院资源环境科学数据中心 http://www.resdc.cn/resdc/first.asp世界聚集人口数据 http://beta.sedac.ciesin.columbia.edu/gpw/index.jsp光谱数据分析网站 http://modis.gsfc.nasa.gov/美国航空航天局NASA http://daac.gsfc.nasa.gov/城市轨道交通http://www.ntsg.umt.edu/人地系统主题数据库http://webpanda.iis.u-tokyo.ac.jp/
+影像数据：
+USGS Earth Explorer：提供Landsat、MODIS等数据ESA’s Sentinel Mission：提供Sentinel系列卫星数据，可以下载欧洲航天局所属的影像数据NOAA CLASS：提供高品质大气数据集，包括美国国防部（DoD）、极地作战环境卫星（POES）、NOAA的地球静止环境卫星（GOES）以及其他派生数据NASA Reverb：提供多种类数据，包括：Aqua, Terra, Aura, TRMM, Calipso, NASA DC, JASON, ENVISAT等EOLi：欧洲航天局的地球观测目录和订购服务的客户，通过Java 程序下载数据，支持的数据包括：Envisat, ERS, IKONOS, DMC, ALOS, SPOT, Kompsat, Proba, IRS, SCISAT.INPE：提供中巴资源卫星数据Bhuvan Indian Geo-Platform of ISRO：提供印度境内的MS-1， Cartosat,，OceanSat and ResourceSat数据以及全球的NVDI数据、南亚国家的CartoDem Version -3R1数据和北印度洋的气候数据
+政府数据
+新加坡政府公开数据：提供新加坡各类数据美国政府公开数据：提供美国全国各类数据法国政府公开数据：法国政府开放数据平台英国政府公开数据：提供英国各类数据国家数据：中国国家统计局权威数据中国统计年鉴：1999年至今中国统计年鉴，国家统计局官网，提供单页Excel文件下载中国统计信息网：全国及各级政府各年度统计公报、年鉴等，为收费数据年鉴汪：全国城市统计数据搜索引擎，浏览免费，下载收费伦敦市公开数据：提供伦敦人口、就业、环境等各类数据国土资源部：国土资源部对外公开的信息报告
+其他细分行业数据
+中研网数据：提供医疗、房产、制造业、服务业、零售消费、车辆等全行业数据中国报告大厅：提供各行各业的基础数据、调查报告、分析报告、预测报告，种类丰富CADMAPPER：世界各大城市的DXF文件，原始数据源为OSM，NASA，USGS亚马逊网络服务公共数据集：跨科学云数据平台，包含化学、生物、经济等多个领域的数据集Awesome Public Datasets：Github公共数据搜集项目，自然科学、社会科学覆盖较面，包含各个细分领域的数据库资源。figshare：数据分析与研究成果共享平台。英国公开数据浏览工具：James Trimble制作的英国数据可视化浏览工具集；数据法国：法国各类数据的可视化呈现；DataEye：基于国内游戏、汽车行业数据，进行多角度的行业调查报告撰写发布CBO中国票房：基于国内票房数据，统计票房排行、上座率等信息。易车指数：反映国内汽车销售市场，为购车者或汽车从业者提供参考的数据指数高德地图：支持实时查看国内交通情况，此外高德周期性提供一系列数据报告房天下：提供中国指数研究院和CREIS中指数据，展示国内房地产数据情况艺恩：CBO中国票房数据的提供方，提供一些行业数据报告，如动漫IP价值研究报告

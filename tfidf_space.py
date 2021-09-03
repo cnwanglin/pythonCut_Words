@@ -3,7 +3,7 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import pickle
-from sklearn.datasets.base import Bunch
+from sklearn.datasets._base import Bunch
 # 读取bunch对象
 def read_bunch(path):
     with open(path, "rb") as fp:
@@ -28,7 +28,7 @@ def train_tfidf_space(stopword_path, train_bunch_path, train_tfidf_data):
     bunch = read_bunch(train_bunch_path)
     stopwords = read_file(stopword_path).splitlines() # 读取停用词
     tfidf_space = Bunch(label=bunch.label, filepath=bunch.filepath,contents=bunch.contents, tdm=[], space={})
-    vectorizer = TfidfVectorizer(stop_words=stopwords, sublinear_tf=True,max_df=0.5)
+    vectorizer = TfidfVectorizer(stop_words=stopwords, sublinear_tf=True,max_df=0.5)#max_df是最大文件数，当为int格式时即最大几份，当为float格式时即占比多少份，min_df默认为int 1即一份
     tfidf_space.tdm = vectorizer.fit_transform(bunch.contents)
     tfidf_space.space = vectorizer.vocabulary_
     write_bunch(train_tfidf_data,tfidf_space)
@@ -45,12 +45,12 @@ def test_tfidf_space(stopword_path, test_bunch_path, test_tfidf_data,train_tfidf
     tfidf_space = Bunch(label=bunch.label, filepath=bunch.filepath,contents=bunch.contents, tdm=[], space={})
     train_bunch = read_bunch(train_tfidf_data) #训练集tfidf数据
     tfidf_space.space = train_bunch.space # 将训练集的词向量空间坐标赋值给测试集
-    vectorizer = TfidfVectorizer(stop_words=stopwords, sublinear_tf=True,max_df=0.5, vocabulary=train_bunch.space)
+    vectorizer = TfidfVectorizer(stop_words=stopwords, sublinear_tf=True,max_df=0.5, vocabulary=train_bunch.space)#max_df是最大文件数，当为int格式时即最大几份，当为float格式时即占比多少份，min_df默认为int 1即一份
     tfidf_space.tdm = vectorizer.fit_transform(bunch.contents)
     write_bunch(test_tfidf_data, tfidf_space)
 if __name__ == '__main__':
     # 训练集数据处理
-    stopword_path = "./chinese_stop_words.txt" # ڌ用词表的路
+    stopword_path = "./chinese_stop_words.txt" # 用词表的路径
     train_bunch_path = './train_bunch_bag.dat'
     train_tfidf_data = './train_tfdifspace.dat'
     train_tfidf_space(stopword_path, train_bunch_path,train_tfidf_data)
